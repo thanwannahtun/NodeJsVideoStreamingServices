@@ -2,15 +2,20 @@
   "name": "videostreamingservice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "socket_streaming.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:socket_streaming": "node socket_streaming.js",
+    "start:raw_streaming": "node raw_streaming.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thanwannahtun",
+  "maintainers": [
+    "thanwanna.dev@gmail.com"
+  ],
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
   }
 }
